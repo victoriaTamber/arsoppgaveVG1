@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>admin</title>
+</head>
+<body>
+  <div id="wrapper">
+
+    <!-- publiseringsløsning Moki meny og navigasjon -->
+    
+    <div id="menyNavigPublisL">
+     
+      <div class="logoMOKI_img">
+        <img src="../images/MOKI_logo.svg" alt="Logoen til MOKI"> 
+
+        <div class="menyNavn">
+         <h2> <a href="../index.html">Moki.ub</a> </h2>
+        </div>
+      </div>
+
+      <!-- meny tittel til publiseringsløsning -->
+      <div class="menyTittelPublisL">
+        <h1>Publiseringssystem</h1> 
+      </div>
+      
+      <!-- navigasjons linker: Admin og publiserings side -->
+      <div class="navLinkerPublisL">
+        <div class="linkAdmin">
+          <a id="aktiv" href="admin.html">Skriv nytt innlegg </a>
+        </div>
+        <div class="linkPubliSide">
+          <a href="publiseringSide.html">Publisering side</a>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <!-- publiseringssystem input -->
+    <div class="inputAdmin">
+
+      <div class="adminTekst">
+        <h1>Skriv et nytt innlegg her</h1>
+      </div>
+
+      <div class="adminInnh" >
+         <!-- overskrift input -->
+        
+        <div class="ovrskrInpAdmin">
+          <label for="nyOskrift-input">Ny overskrift</label>
+          <input type="text" id="nyOskrift-input" name="NyOverskrift" placeholder="Skriv her" required>
+        </div>
+         
+        <!-- tekst input --> 
+        <div class="tekstInpAdmin"> 
+          <label for="nyTekst-input">Ny tekst for siden:</label>
+          <input type="text" id="nyTekst-input" name="NyTekst" placeholder="Skriv her" required>
+        </div> 
+
+        <!-- bilde input -->
+        <!-- <div class="bildeInpAdmin"> 
+          <label for="nyBilde-input">Ny bilde input:</label>
+          <input type="file" id="nyBilde-input" name="Sett bilde her">
+        </div>  -->
+        
+        
+        <!-- lagrer variablene i local storage -->
+        <button type="submit" onclick="registrProd()" id="regisrProd"> Lagre </button>
+        <!-- link til publiserings side -->
+          <a href="publiseringSide.html"> publiserings side </a>
+      </div>
+    </div> 
+
+    <!-- footer publiseringssystem -->
+    <div class="footer">
+      <div class="brukerVeilPubl">
+        <a href="../PubliseringsL/brukerveiledPublisL.html" target="_blank">Brukerveiledning Publiseringsystem </a>
+      </div>
+    </div>
+  </div> 
+  
+<script src="../script.js"></script>
+</body>
+</html>

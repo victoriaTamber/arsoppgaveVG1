@@ -1,0 +1,273 @@
+body {
+    background-color: #EAE7DC;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Meny og logo*/
+/*Logo*/
+.Vlogo img {
+    height: 85px;
+    width: auto;
+}
+
+.Vlogo {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 3px;
+    width: 500px;
+}
+
+/*Meny*/
+.meny {
+    display: flex;
+    
+    background-color: #8D7C7C;
+    padding: 15px;
+}
+
+/*navigasjon*/
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 900px;
+    /*sentrere navigasjonen og større størrelse*/
+    align-self: center;
+    font-size: 20px;
+}
+
+/*fjerning av boksen rundt navigasjonene*/
+a:link {
+    text-decoration: none;
+}
+
+/*under streken til navigasjonen*/
+.nav a:hover {
+    border-bottom: 3px solid white;
+}
+
+.nav #aktiv {
+    text-decoration: underline;
+}
+
+
+/*overskrifter*/
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+/*portrett bilde til index*/
+.portrettB {
+    display: flex;
+    justify-content: center;
+}
+
+.kontaktInf {
+    display: flex;
+    justify-content: center;
+}
+
+
+.kontaktInfT, li {
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+/*video om meg selv*/
+.videoMe {
+    display: flex;
+    margin-left: 1100px;
+    width: 320px;
+    height: 400px;
+}
+
+
+
+
+/*about me side*/
+
+.bilderS2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.aboutmeT1 {
+    display: flex;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 800px;
+    margin-right: 800px;
+    margin-bottom: 40px;
+
+}
+
+.aboutmeT2 {
+    display: flex;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 800px;
+    margin-right: 800px;
+    margin-bottom: 40px;
+}
+
+.aboutmeT3 {
+    display: flex;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 800px;
+    margin-right: 800px;
+}
+
+
+
+
+/*portofølje side*/
+
+/*linker til medieproduksjon og informasjonsteknologi*/
+.UNDsider {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.UNDsider a:link,
+.UNDsider a:visited {
+    background-color: #8D7C7C;
+    color: white;
+}
+
+/*foto til portføljesiden*/
+.solnedgang {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.Fbilder, .skoleBild{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 45px;
+}
+
+.back {
+    
+    border: 2px solid black;
+    font-size: x-large;
+}
+
+
+/*siden til medieproduksjon*/
+
+/*Nyhetsending*/
+.rad1 {
+    display: flex;
+    padding-left: 650px;
+    flex-direction: column;
+    margin-bottom: 80px;
+
+}
+
+.NyhetS_tekst {
+    margin-left: 100px;
+    width: 400px;
+    height: 150px;
+    border: 2px solid black;
+    align-items: center;
+}
+
+/*Vektor portrett og Logo snurr danseskole as*/
+.rad2 {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    margin-bottom: 200px;
+}
+
+/*oppgaveKvinne i vindu GIF/Teddybjørn Layers*/
+.rad3 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+/* oppdrag 5 */
+.fruktRad {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.fruktBilde {
+    display: flex;
+    padding-right: 30px;
+}
+
+/*siden til informasjonsteknologi*/
+
+.oppdr3Og1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.oppdr3 {
+    display: flex;
+    justify-content: center;
+}
+
+/*design manual*/
+
+/*farger og font*/
+#boks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+}
+
+/*avstanden*/
+#farger {
+    display: flex;
+    flex-direction: column;
+}
+
+/*hovedfarger*/
+.Hfarger {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+/*støttefarger*/
+.Sfarger {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+/*Fonten jeg har brukt i nettsiden*/
+#font {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}
+
+
+
+
+/*dekorasjon*/
+.sirkler {
+    display: flex;
+    justify-content: space-between;
+}
