@@ -1,6 +1,6 @@
 # arsoppgaveVG1
-Min første årsoppgave fra VG1, informasjonsteknologi og medieproduksjon. Andre semester 2023
-Denne nettsiden handler om en ungdomsbedrift som heter Moki.
+Min første årsoppgave fra VG1, informasjonsteknologi og medieproduksjon. Andre semester 2023,
+denne nettsiden handler om en ungdomsbedrift som heter Moki.
 Programmerinspråk: HTML, CSS, Javascript
 ----------------------------------------------------------------------------------------
 Hovedsidene på nettsiden innholder:
